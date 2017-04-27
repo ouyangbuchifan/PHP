@@ -1,7 +1,0 @@
-demo1: 几种标记
-demo2: PHP数据类型
-demo3: 特殊数据类型
-demo4: 检测数据类型。
-demo5: 常量
-demo6: 变量
-demo7: 运算符

@@ -1,6 +1,0 @@
-demo1. 字符串简介，单双引号区别，字符串连接符
-demo2. trim() addslashes() stripslashes() strlen()
-demo3. 用户登录页面，index页面接收表单值，判断用户密码。
-demo4. substr() strcmp() strstr() str_ireplace() substr_replace() number_format() explode() implode()
-
-

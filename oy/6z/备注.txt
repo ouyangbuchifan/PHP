@@ -1,4 +1,0 @@
-demo1. 正则语法
-demo2. POSIX扩展正则函数   ereg() ereg_replace() split() spliti()
-demo3. PCRE兼容正则函数	   preg_grep() preg_match() preg_quote() preg_replace_all() preg_replace_callback() preg_split()
-demo4. 用正则验证用户表单
