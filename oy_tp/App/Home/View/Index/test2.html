@@ -1,0 +1,24 @@
+<include file="Public/header" title="内置标签"/>
+        <!--volist-->
+    <volist name="list" id="vo">
+        {$vo.id}:{$vo.name}
+    </volist>
+
+        <!--foreach-->
+        <//foreach name="list" id="vo">
+            {$key}{$vo}
+        <///foreach>
+
+        <!--for-->
+        <for start="1" end="10" name="i">
+            {$i}<br/>
+        </for>
+
+        <!--switch-->
+        <switch name="name">
+            <case value="小张|小黄">我是小张的兄弟</case>
+            <case value="小明">没错，我就是小明</case>
+            <default/>我谁都不是
+        </switch>
+
+<include file="Public/footer"/>
