@@ -1,0 +1,49 @@
+<script src="jquery-1.8.2.min.js"></script>
+<script>
+    var val = {
+        name : "孟闯",
+        set_sex:function(val){
+            this.sex=val;
+        },
+        arr : ['王悦','女'],
+        jsons:{"name":"刘莹", "sex":"女"}
+     };
+     val.set_sex('男');
+     console.log(val.name+' , '+val.sex);
+     val.set_sex('女');
+     console.log(val.arr[0]+' , '+val.arr[0]);
+     console.log(val.jsons.name+' , '+val.jsons.sex);
+
+    $.getJSON('json.php', function(val){
+        $.each(val, function(v){
+            console.log(val[v].name);
+            if (val[v].childs){
+                $.each(val[v].childs, function(vv) {
+                    console.log('-'+val[v].childs[vv].name);
+                });
+            }
+        });
+    });
+
+    $.post('json.php', {"name":"jays","sex":"18"}, function(rs){
+        if (rs.status==1) {
+            console.log('success');
+        }else{
+            console.log('faied');
+        }
+    }, 'JSON');
+
+    var get_area = function(id){
+        $.getJSON('json.php', {'id':id}, function(val){
+            $.each(val, function(v){
+                $('body').append("<li data-id="+v+">"+val[v].name+'</li>');
+            });
+            $('li').on('click',function(){
+                console.log($(this).data('id'));
+                get_area($(this).data('id'));
+            });
+        });
+    }
+
+    get_area(0);
+</script>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+</head>
+<body>
+    <div class="text">
+    	这里是王悦
+    </div>
+
+
+    <script type="text/javascript" src="../s/sea/sea.js"></script>
+    <script type="text/javascript">
+    seajs.config({
+    	base:'../s/sea',		// 定义sea的根目录
+    	alias:{
+    		'jquery':'jquery/jquery-1.9.1.min.js'		// 定义JQ
+    	}
+    })
+    seajs.use('../static/test/test.js');		// 这里的目录是相对html模板而言。
+    </script>
+</body>
+</html>
