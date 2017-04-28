@@ -23,8 +23,8 @@
                 </div>
             </form>
             <?php
-                $link=mysql_connect('localhost','root','123456') or die ('数据库连接出错！');
-                $sel=mysql_select_db('db_study',$link) or die('数据库连接出错！');
+                $link=mysqli_connect('localhost','root','') or die ('数据库连接出错！');
+                $sel=mysqli_select_db($link,'db_study') or die('数据库连接出错！');
                 mysql_query('set names utf8');
                 // 如果没有搜索内容，那就默认全部查找出来
                 $sql=mysql_query('select * from tb_book');

@@ -6,8 +6,8 @@
 </head>
 <body>
     <?php
-    $link=mysql_connect('localhost','root','123456') or die('error').mysql_error();
-    $db_selected=mysql_select_db('db_study',$link);
+    $link=mysqli_connect('localhost','root','123456') or die('error').mysql_error();
+    $db_selected=mysqli_select_db($link,'db_study');
 
     // insert
     $result=mysql_query('insert into db_stu1 value("3","ouyang") ',$link);

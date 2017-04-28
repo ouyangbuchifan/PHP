@@ -39,8 +39,8 @@
                     </thead>
                     <tbody>
                 <?php
-                    $link=mysql_connect('localhost','root','123456');
-                    $select_db=mysql_select_db('db_study',$link);
+                    $link=mysqli_connect('localhost','root','123456');
+                    $select_db=mysqli_select_db($link,'db_study');
                     mysql_query('set names utf8');
                     $sql=mysql_query('select * from tb_book');
                     $info=mysql_fetch_object($sql);     // 获取查询结果，返回值为一个对象。

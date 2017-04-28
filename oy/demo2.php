@@ -7,10 +7,11 @@
 
 <body>
 <?php
-	 $db_usrname="root";  //此处填你的用户名，本例中为root
-    $db_password="123456";     //此处填你的密码，本例中为空
-    $conn=mysql_connect("localhost",$db_usrname,$db_password) or die ('I cannot  connect to the database.'); 
-    mysql_select_db("test",$conn); 
+	$db_usrname="root";  //此处填你的用户名，本例中为root
+    $db_password="";     //此处填你的密码，本例中为空
+    $conn=mysqli_connect("localhost",$db_usrname,$db_password) or die ('I cannot  connect to the database.'); 
+    // mysqli_select_db先链接，后数据表
+    mysqli_select_db($conn, "test"); 
     echo "Success"; 
 
 ?>

@@ -24,8 +24,8 @@
                     </div>
                 </div>
                 <?php
-                    $link=mysql_connect('localhost','root','123456') or die("error").mysql_error();
-                    $db_selected=mysql_select_db('db_study',$link);
+                    $link=mysqli_connect('localhost','root','123456') or die("error").mysql_error();
+                    $db_selected=mysqli_select_db($link,'db_study');
                     mysql_query('set names utf8');  // 将数据库编码格式设置为utf8类型，屏蔽乱码
 
                     $sql=mysql_query("select * from tb_book");  // 执行查询语句
