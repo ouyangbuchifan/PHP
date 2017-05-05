@@ -93,7 +93,7 @@
 		</div>
 		
 		<!-- for循环 comprison默认lt -->
-		<?php $__FOR_START_10474__=1;$__FOR_END_10474__=5;for($k=$__FOR_START_10474__;$k <= $__FOR_END_10474__;$k+=1){ echo ($k); ?><span> </span><?php } ?>
+		<?php $__FOR_START_12760__=1;$__FOR_END_12760__=5;for($k=$__FOR_START_12760__;$k <= $__FOR_END_12760__;$k+=1){ echo ($k); ?><span> </span><?php } ?>
 		<div class="clearfix"></div>
 
 		<!-- if语句 除了if,其他需要结束符-->
@@ -130,6 +130,23 @@
 
 		<!-- 三元运算符 -->
 		<?php echo ($mynum>10?'mynum大于10':'mynum小于10'); ?>
+		
+		<hr />
+		
+		<!--
+			尽量用TP的语句，不要用if语句，if语句都用的PHP原生语法
+		-->
+		<?php if(is_array($person)): foreach($person as $key=>$data): if(($data["age"]) >= "18"): ?><p><?php echo ($data["name"]); ?>已经成年了</p>
+				<?php else: ?><p><?php echo ($data["name"]); ?>还未成年</p><?php endif; endforeach; endif; ?>
+		
+		<hr />
+		
+		<!--
+			<?php  ?>TP框架的PHP标签，尽量这么写，否则会被配置文件过滤
+		-->
+		<p>
+			<?php echo $person[1]['name']; echo'<br/>'; for($i=0;$i<=count($person);$i++){ echo $person[$i]['name'].' '; } ?>
+		</p>
 	</div>
 </body>
 </html>

@@ -143,6 +143,32 @@
 
 		<!-- 三元运算符 -->
 		{$mynum>10?'mynum大于10':'mynum小于10'}
+		
+		<hr />
+		
+		<!--
+			尽量用TP的语句，不要用if语句，if语句都用的PHP原生语法
+		-->
+		<foreach name="person" item="data">
+			<egt name="data.age" value="18"><p>{$data.name}已经成年了</p>
+				<else/><p>{$data.name}还未成年</p>
+			</egt>
+		</foreach>
+		
+		<hr />
+		
+		<!--
+			<php></php>TP框架的PHP标签，尽量这么写，否则会被配置文件过滤
+		-->
+		<p>
+			<php>
+				echo $person[1]['name'];
+				echo'<br/>';
+				for($i=0;$i<=count($person);$i++){
+					echo $person[$i]['name'].' ';
+				}
+			</php>
+		</p>
 	</div>
 </body>
 </html>

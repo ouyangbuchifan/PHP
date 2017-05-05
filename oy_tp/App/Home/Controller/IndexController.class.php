@@ -18,7 +18,8 @@ class IndexController extends Controller {
 
         //U('模块/方法',array('id'=>1),'xxxx html shtml htm',true/false,'localhost')
         // true/false 是否自动跳转
-        // echo U('Index/sex',array('id'=>1),'shtml',false,'localhost');
+        echo U('Index/sex',array('id'=>1),'shtml',false,'localhost');
+        // /oy_tp/index.php?m=Home&c=Index&a=sex
 
         // dump thinkphp自己的打印数组方法
         $myarr = array('张三','李四','王五');
@@ -59,6 +60,10 @@ class IndexController extends Controller {
         $this->assign('myname', $myname);
         $this->display();
     }
+
+    // public function list(){
+    //     $this->display();
+    // }
 
     public function sex(){
     	echo 'id is: '.$_GET['id'].'<br/>';

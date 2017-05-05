@@ -44,7 +44,7 @@ a action  方法 action=页面
 *exit;
 */
 
-define('APP_DEBUG', false);
+define('APP_DEBUG', true);
 define('APP_NAME', 'APP');
 define('APP_PATH', './App/');
 require("./ThinkPHP/ThinkPHP.php");
