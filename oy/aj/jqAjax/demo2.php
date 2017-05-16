@@ -1,5 +1,6 @@
 <?php
 	header("Content-type:text/html;charset=utf-8");
+	
 	$username = $_GET['name'];
 	$mobile = $_GET['mobile'];
 	$address = $_GET['address'];

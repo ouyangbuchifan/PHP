@@ -35,7 +35,7 @@
 				dataType:'json',
 				data: cont,
 				success: function(data){
-					console.log(2222)
+					console.log(2222);
 					console.log(data);
 					$('#result').html(data.username+'<br/>'+data.mobile+'<br/>'+data.address);
 					console.log(3333);

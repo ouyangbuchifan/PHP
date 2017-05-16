@@ -93,7 +93,7 @@
 		</div>
 		
 		<!-- for循环 comprison默认lt -->
-		<?php $__FOR_START_12760__=1;$__FOR_END_12760__=5;for($k=$__FOR_START_12760__;$k <= $__FOR_END_12760__;$k+=1){ echo ($k); ?><span> </span><?php } ?>
+		<?php $__FOR_START_24245__=1;$__FOR_END_24245__=5;for($k=$__FOR_START_24245__;$k <= $__FOR_END_24245__;$k+=1){ echo ($k); ?><span> </span><?php } ?>
 		<div class="clearfix"></div>
 
 		<!-- if语句 除了if,其他需要结束符-->

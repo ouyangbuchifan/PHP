@@ -1,0 +1,221 @@
+[ 2017-05-10T15:43:15+08:00 ] ::1 /oy_tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.056955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.038607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-05-10T15:44:09+08:00 ] ::1 /oy_tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined variable: num D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 100 行.
+NOTIC: [8] Undefined variable: num D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027235s ]
+
+[ 2017-05-10T15:44:11+08:00 ] ::1 /oy_tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined variable: num D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 100 行.
+NOTIC: [8] Undefined variable: num D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-05-10T15:44:21+08:00 ] ::1 /oy_tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Undefined variable: num D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 100 行.
+NOTIC: [8] Undefined variable: num D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 101 行.
+NOTIC: [8] Undefined offset: 0 D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2017-05-10T15:44:22+08:00 ] ::1 /oy_tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+NOTIC: [8] Undefined variable: num D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 100 行.
+NOTIC: [8] Undefined variable: num D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 101 行.
+NOTIC: [8] Undefined offset: 0 D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2017-05-10T15:46:02+08:00 ] ::1 /oy_tp/index.php?m=home&c=index&a=sex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+NOTIC: [8] Undefined index: id D:\BJC\wamp\www\oy_tp\App\Home\Controller\IndexController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2017-05-10T15:46:05+08:00 ] ::1 /oy_tp/index.php?m=home&c=index&a=sex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+NOTIC: [8] Undefined index: id D:\BJC\wamp\www\oy_tp\App\Home\Controller\IndexController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2017-05-10T15:46:32+08:00 ] ::1 /oy_tp/index.php?m=home&c=index&a=sex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [8] Undefined index: id D:\BJC\wamp\www\oy_tp\App\Home\Controller\IndexController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2017-05-10T15:46:34+08:00 ] ::1 /oy_tp/index.php?m=home&c=index&a=sex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+NOTIC: [8] Undefined index: id D:\BJC\wamp\www\oy_tp\App\Home\Controller\IndexController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-05-10T15:47:48+08:00 ] ::1 /oy_tp/index.php?m=home&c=index&a=sex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [8] Undefined index: id D:\BJC\wamp\www\oy_tp\App\Home\Controller\IndexController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-05-10T15:47:49+08:00 ] ::1 /oy_tp/index.php?m=home&c=index&a=sex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [8] Undefined index: id D:\BJC\wamp\www\oy_tp\App\Home\Controller\IndexController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2017-05-10T15:47:49+08:00 ] ::1 /oy_tp/index.php?m=home&c=index&a=sex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8] Undefined index: id D:\BJC\wamp\www\oy_tp\App\Home\Controller\IndexController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2017-05-10T15:47:49+08:00 ] ::1 /oy_tp/index.php?m=home&c=index&a=sex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8] Undefined index: id D:\BJC\wamp\www\oy_tp\App\Home\Controller\IndexController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2017-05-10T17:25:20+08:00 ] ::1 /oy_tp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.063020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.044062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8] Undefined variable: num D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 100 行.
+NOTIC: [8] Undefined variable: num D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 101 行.
+NOTIC: [8] Undefined offset: 0 D:\BJC\wamp\www\oy_tp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.509662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.509856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.036888s ]
+
